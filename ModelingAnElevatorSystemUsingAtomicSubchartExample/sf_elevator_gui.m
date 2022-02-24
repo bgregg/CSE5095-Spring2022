@@ -336,7 +336,7 @@ case 'open_door'
         set(carBdoor, 'Position', [carBaxes-doorWidth carBPos doorWidth*2 carHeight]);
     end
     
-    pause(0.2);
+    pause(1.0);
     
  case 'close_door'
      % Animate closing elevator doors
